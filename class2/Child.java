@@ -4,12 +4,12 @@ class Parent{
     }
 }
 public class Child extends Parent{
-    //@Overrid
-    void method1(){
+    @Override
+    void method(){
         System.out.println("this is Child Class Method");
     }
     public static void main(String[] args){
         Child ob = new Child();
-        ob.method1();
+        ob.method();
     }
 }
